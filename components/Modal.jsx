@@ -51,7 +51,7 @@ function Modal() {
     setIsOpen(false);
     setComment("");
 
-    router.push(`/${postId}`);
+    router.push(`/post/${postId}`);
   };
 
   return (
